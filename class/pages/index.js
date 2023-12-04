@@ -1,5 +1,4 @@
-import Head from 'next/head';
-
+import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -11,7 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>이 글자가 잘 나오는지 확인해 주세요</div>
+      <div>
+        이 글자가 잘 나오는지 확인해 주세요!
+      </div>
     </>
-  );
+  )
 }
